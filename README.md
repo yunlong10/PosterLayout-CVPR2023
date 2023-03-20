@@ -1,7 +1,7 @@
 # PosterLayout: A New Benchmark and Approach for Content-aware Visual-Textual Presentation Layout
 
 ## Introduction
-This repository contains the new benchmark described in our CVPR 2023 paper "A New Benchmark and Approach for Fine-grained Cross-media Retrieval".
+This repository contains the new benchmark described in our CVPR 2023 paper "PosterLayout: A New Benchmark and Approach for Content-aware Visual-Textual Presentation Layout".
 Codes are coming soon.
 
 For more details and dataset downloads, please visit our [project page](http://59.108.48.34/tiki/PosterLayout/).
@@ -10,7 +10,7 @@ For more details and dataset downloads, please visit our [project page](http://5
 <!--
 ## How to Run
 ### Requirement
---!>
+-->
 
 ## Citation
 If our work is helpful for your research, please cite our paper:
