@@ -1,1 +1,1 @@
-# PosterLayout_CVPR2023
+# PosterLayout-CVPR2023
