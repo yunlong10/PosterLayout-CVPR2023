@@ -10,8 +10,10 @@ For more details and **dataset downloads**, please visit our [project page](http
 ## How to Run
 ### Requirement
 - Environment
+```
 Python 3.9
 CUDA 11.0
+```
 - Module
 ```
 torch==1.12.1
