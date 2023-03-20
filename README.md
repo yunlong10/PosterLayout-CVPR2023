@@ -4,7 +4,13 @@
 This repository contains the new benchmark described in our CVPR 2023 paper "A New Benchmark and Approach for Fine-grained Cross-media Retrieval".
 Codes are coming soon.
 
-For more details, please visit our [project page](http://59.108.48.34/tiki/PosterLayout/).
+For more details and dataset downloads, please visit our [project page](http://59.108.48.34/tiki/PosterLayout/).
+
+
+<!--
+## How to Run
+### Requirement
+--!>
 
 ## Citation
 If our work is helpful for your research, please cite our paper:
@@ -16,3 +22,6 @@ If our work is helpful for your research, please cite our paper:
     year={2023}
 }
 ```
+
+## Contact us
+For any questions or further information, please email Hsu (kslh99@stu.pku.edu.cn).
