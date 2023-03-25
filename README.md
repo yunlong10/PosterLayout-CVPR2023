@@ -4,6 +4,8 @@ This repository contains the benchmark and Pytorch implementation of "PosterLayo
 
 For more details and **dataset downloads**, please visit our [project page](http://59.108.48.34/tiki/PosterLayout/).
 
+
+
 ## How to Run
 ### Prerequisites
 
@@ -29,8 +31,8 @@ Pillow==9.2.0
 ```
 
 ### Models
-1. Download pre-trained weights from [PKU Netdisk](https://disk.pku.edu.cn:443/link/B11CA3D24A7A59332A3DDDF2A0A608B2) or [Google Drive]()
-2. Put pth files under ```model_weight``` and ```output```, as follow:
+1. Download pre-trained weights from [PKU Netdisk](https://disk.pku.edu.cn:443/link/B11CA3D24A7A59332A3DDDF2A0A608B2) or [Google Drive](https://drive.google.com/drive/folders/1UYJ34BhqgYztfh5n5A4GU4nqgboPtoWS?usp=sharing)
+2. Put corresponding .pth files under ```model_weight``` or ```output```, as follow:
 ```
 model_weight/
 ├─ resnet18-5c106cde.pth
