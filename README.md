@@ -1,22 +1,18 @@
 # PosterLayout: A New Benchmark and Approach for Content-aware Visual-Textual Presentation Layout
 
-## Introduction
-This repository contains the new benchmark described in our CVPR 2023 paper "PosterLayout: A New Benchmark and Approach for Content-aware Visual-Textual Presentation Layout".
-Codes are coming soon.
+This repository contains the benchmark and Pytorch implementation of "PosterLayout: A New Benchmark and Approach for Content-aware Visual-Textual Presentation Layout", CVPR 2023.
 
 For more details and **dataset downloads**, please visit our [project page](http://59.108.48.34/tiki/PosterLayout/).
 
-
 ## How to Run
-### Requirement
-- Conda spec-list
-If your operating system is ```linux-64```, directly run the following command
+### Prerequisites
+
+If your operating system is ```linux-64```, directly run
 ```
 conda create --name yourenvname --file spec-file.txt
 ```
 
-Otherwise,
-
+Otherwise, 
 - Environment
 ```
 Python 3.9
@@ -32,12 +28,41 @@ pandas==1.4.3
 Pillow==9.2.0
 ```
 
-### Training
+### Models
+1. Download pre-trained weights from [PKU Netdisk](https://disk.pku.edu.cn:443/link/B11CA3D24A7A59332A3DDDF2A0A608B2) or [Google Drive]()
+2. Put pth files under ```model_weight``` and ```output```, as follow:
+```
+model_weight/
+├─ resnet18-5c106cde.pth
+├─ resnet50_a1_0-14fe96d1.pth
+output/
+├─ DS-GAN-Epoch300.pth
+```
+
+### Dataset
+1. Download PKU PosterLayout from the [project page](http://59.108.48.34/tiki/PosterLayout/)
+2. Unzip compressed files to corresponding directories
+3. Put directories under ```Dataset/```, as follow:
+```
+Dataset/
+├─ train/
+│  ├─ inpainted_poster/
+│  ├─ saliencymaps_basnet/
+│  ├─ saliencymaps_pfpn/
+├─ test/
+│  ├─ image_canvas/
+│  ├─ saliencymaps_basnet/
+│  ├─ saliencymaps_pfpn/
+├─ train_csv_9973.csv
+```
+
+### Usage
+- Training
 ```
 sh train.sh
 ```
 
-### Testing and Evaluating
+- Testing and Evaluating
 ```
 sh test_n_eval.sh
 ```
