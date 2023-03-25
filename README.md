@@ -9,6 +9,14 @@ For more details and **dataset downloads**, please visit our [project page](http
 
 ## How to Run
 ### Requirement
+- Conda spec-list
+If your operating system is ```linux-64```, directly run the following command
+```
+conda create --name yourenvname --file spec-file.txt
+```
+
+Otherwise,
+
 - Environment
 ```
 Python 3.9
