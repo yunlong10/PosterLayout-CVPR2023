@@ -70,7 +70,7 @@ sh train.sh
 sh test_n_eval.sh
 ```
 
-## Paper
+## Citation
 If our work is helpful for your research, please cite our paper:
 ```
 @inproceedings{Hsu-2023-posterlayout,
