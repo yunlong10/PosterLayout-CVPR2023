@@ -67,10 +67,10 @@ sh train.sh
 sh test_n_eval.sh
 ```
 
-## Citation
+## Paper
 If our work is helpful for your research, please cite our paper:
 ```
-@inproceedings{hsu2023posterlayout,
+@inproceedings{Hsu-2023-posterlayout,
     title={PosterLayout: A New Benchmark and  Approach for Content-Aware Visual-Textual Presentation Layout},
     author={HsiaoYuan Hsu, Xiangteng He, Yuxin Peng, Hao Kong and Qing Zhang},
     booktitle={Proceedings of IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
